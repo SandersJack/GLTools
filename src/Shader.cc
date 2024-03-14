@@ -12,6 +12,7 @@ Shader &Shader::Use()
 }
 
 void Shader::Compile(const char * vertex_file_path,const char * fragment_file_path){
+    std::cout << "tttt: " << vertex_file_path << " " << fragment_file_path << std::endl;
     fID = LoadShaders(vertex_file_path, fragment_file_path);
 }
 

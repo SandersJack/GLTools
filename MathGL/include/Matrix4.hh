@@ -111,6 +111,14 @@ class _Matrix4 {
             return result;
         }
 
+        _Matrix4 scale(const _Vector3<T>& scale){
+            _Matrix4 result = *this;
+            result.m[0][0] = scale.x;
+            result.m[1][1] = scale.y;
+            result.m[2][2] = scale.z;
+            return result;
+        }
+
         /// Operators
         
         /// * operators
