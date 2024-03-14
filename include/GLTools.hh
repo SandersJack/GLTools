@@ -1,5 +1,5 @@
-#ifndef opglTools_HPP
-#define opglTools_HPP
+#ifndef GLTools_HPP
+#define GLTools_HPP
 
 #include "MathGL.hh"
 
@@ -13,8 +13,8 @@
 
 #include "Controls.hh"
 
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+//#define STB_IMAGE_IMPLEMENTATION
+//#include "stb_image.h"
 
 
 #endif
