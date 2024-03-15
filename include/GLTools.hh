@@ -13,6 +13,9 @@
 
 #include "Controls.hh"
 
+#include "ResourceManager.hh"
+#include "SpriteRenderer.hh"
+
 //#define STB_IMAGE_IMPLEMENTATION
 //#include "stb_image.h"
 
